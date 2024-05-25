@@ -1,101 +1,723 @@
-<mxfile host="app.diagrams.net" modified="2024-05-22T23:47:01.440Z" agent="Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="ci_AmLz7f520ccCNqwAM" version="24.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-25T13:13:53.753Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="ASMmmX5KgdHqsEDUED95" version="24.4.6" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1223" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="3457" dy="2471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-1" value="" style="edgeStyle=entityRelationEdgeStyle;endArrow=ERzeroToMany;startArrow=ERone;endFill=1;startFill=0;" parent="1" source="C-vyLk0tnHw3VtMMgP7b-24" target="C-vyLk0tnHw3VtMMgP7b-6" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="340" y="720" as="sourcePoint" />
-            <mxPoint x="440" y="620" as="targetPoint" />
+        <mxCell id="zOImHuErWfGpGWjUnsOy-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zOImHuErWfGpGWjUnsOy-1" target="zOImHuErWfGpGWjUnsOy-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-93" value="Check 3 attempts within 1 hour" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-92">
+          <mxGeometry x="-0.0889" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-12" value="" style="edgeStyle=entityRelationEdgeStyle;endArrow=ERzeroToMany;startArrow=ERone;endFill=1;startFill=0;" parent="1" source="C-vyLk0tnHw3VtMMgP7b-3" target="C-vyLk0tnHw3VtMMgP7b-17" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="400" y="180" as="sourcePoint" />
-            <mxPoint x="460" y="205" as="targetPoint" />
+        <mxCell id="zOImHuErWfGpGWjUnsOy-1" value="" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="-10" width="900" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-2" value="Get phone verification code" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="255" y="-6" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zOImHuErWfGpGWjUnsOy-3" target="zOImHuErWfGpGWjUnsOy-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-3" value="/api/v1/auth/send-code&lt;br&gt;&lt;br&gt;{ phoneNumber }" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="280" y="30" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zOImHuErWfGpGWjUnsOy-4" target="zOImHuErWfGpGWjUnsOy-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="666" y="245" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-2" value="Orders" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="120" width="250" height="130" as="geometry" />
+        <mxCell id="zOImHuErWfGpGWjUnsOy-18" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-17">
+          <mxGeometry x="0.2051" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-3" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="C-vyLk0tnHw3VtMMgP7b-2" vertex="1">
-          <mxGeometry y="30" width="250" height="30" as="geometry" />
+        <mxCell id="zOImHuErWfGpGWjUnsOy-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zOImHuErWfGpGWjUnsOy-4" target="zOImHuErWfGpGWjUnsOy-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-4" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;" parent="C-vyLk0tnHw3VtMMgP7b-3" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry" />
+        <mxCell id="zOImHuErWfGpGWjUnsOy-20" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-19">
+          <mxGeometry x="-0.5714" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-5" value="order_id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="C-vyLk0tnHw3VtMMgP7b-3" vertex="1">
-          <mxGeometry x="30" width="220" height="30" as="geometry" />
+        <mxCell id="zOImHuErWfGpGWjUnsOy-4" value="Call External Service API with the user&#39;s phone number" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="610" y="130" width="225" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-6" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="C-vyLk0tnHw3VtMMgP7b-2" vertex="1">
-          <mxGeometry y="60" width="250" height="30" as="geometry" />
+        <mxCell id="zOImHuErWfGpGWjUnsOy-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zOImHuErWfGpGWjUnsOy-6" target="zOImHuErWfGpGWjUnsOy-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-7" value="FK1" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="C-vyLk0tnHw3VtMMgP7b-6" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry" />
+        <mxCell id="zOImHuErWfGpGWjUnsOy-11" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-9">
+          <mxGeometry x="0.5024" y="2" relative="1" as="geometry">
+            <mxPoint x="10" y="-2" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-8" value="customer_id int NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="C-vyLk0tnHw3VtMMgP7b-6" vertex="1">
-          <mxGeometry x="30" width="220" height="30" as="geometry" />
+        <mxCell id="zOImHuErWfGpGWjUnsOy-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zOImHuErWfGpGWjUnsOy-6" target="zOImHuErWfGpGWjUnsOy-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="160" />
+              <mxPoint x="580" y="160" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-9" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="C-vyLk0tnHw3VtMMgP7b-2" vertex="1">
-          <mxGeometry y="90" width="250" height="30" as="geometry" />
+        <mxCell id="zOImHuErWfGpGWjUnsOy-22" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-21">
+          <mxGeometry x="0.1451" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-10" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="C-vyLk0tnHw3VtMMgP7b-9" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry" />
+        <mxCell id="zOImHuErWfGpGWjUnsOy-5" value="&lt;span class=&quot;hljs-punctuation&quot;&gt;{&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-attr&quot;&gt;&quot;status&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;:&lt;/span&gt;&amp;nbsp;500&lt;span class=&quot;hljs-punctuation&quot;&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-attr&quot;&gt;&quot;message&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;:&lt;/span&gt;&amp;nbsp;&lt;span class=&quot;hljs-string&quot;&gt;&quot;Invalid verification code&quot;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;}&lt;/span&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="10" y="305" width="225" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-11" value="order_date date NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="C-vyLk0tnHw3VtMMgP7b-9" vertex="1">
-          <mxGeometry x="30" width="220" height="30" as="geometry" />
+        <mxCell id="zOImHuErWfGpGWjUnsOy-6" value="Check if the user is in the DB" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="265" y="140" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-13" value="Shipments" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="280" width="250" height="130" as="geometry" />
+        <mxCell id="zOImHuErWfGpGWjUnsOy-7" value="&lt;span class=&quot;hljs-punctuation&quot;&gt;{&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-attr&quot;&gt;&quot;status&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;403&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;,&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;hljs-attr&quot;&gt;&quot;message&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;User not found&quot;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;}&lt;/span&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="10" y="135" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-14" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="C-vyLk0tnHw3VtMMgP7b-13" vertex="1">
-          <mxGeometry y="30" width="250" height="30" as="geometry" />
+        <mxCell id="zOImHuErWfGpGWjUnsOy-8" value="&lt;span class=&quot;hljs-punctuation&quot;&gt;{&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-attr&quot;&gt;&quot;success&quot;: &quot;true&quot;&lt;/span&gt;&lt;span class=&quot;hljs-number&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;}&lt;/span&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="570" y="450" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-15" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;" parent="C-vyLk0tnHw3VtMMgP7b-14" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry" />
+        <mxCell id="zOImHuErWfGpGWjUnsOy-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zOImHuErWfGpGWjUnsOy-15" target="zOImHuErWfGpGWjUnsOy-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-16" value="shipment_id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="C-vyLk0tnHw3VtMMgP7b-14" vertex="1">
-          <mxGeometry x="30" width="220" height="30" as="geometry" />
+        <mxCell id="zOImHuErWfGpGWjUnsOy-24" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-23">
+          <mxGeometry x="-0.3157" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-17" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="C-vyLk0tnHw3VtMMgP7b-13" vertex="1">
-          <mxGeometry y="60" width="250" height="30" as="geometry" />
+        <mxCell id="zOImHuErWfGpGWjUnsOy-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zOImHuErWfGpGWjUnsOy-15" target="zOImHuErWfGpGWjUnsOy-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-18" value="FK1" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="C-vyLk0tnHw3VtMMgP7b-17" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry" />
+        <mxCell id="zOImHuErWfGpGWjUnsOy-26" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-25">
+          <mxGeometry x="-0.4667" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-19" value="order_id int NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="C-vyLk0tnHw3VtMMgP7b-17" vertex="1">
-          <mxGeometry x="30" width="220" height="30" as="geometry" />
+        <mxCell id="zOImHuErWfGpGWjUnsOy-15" value="Create or update a record in the VerificationCode table&lt;br&gt;Updated data: a code value, a code expiration timestamp" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="505" y="300" width="330" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-20" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="C-vyLk0tnHw3VtMMgP7b-13" vertex="1">
-          <mxGeometry y="90" width="250" height="30" as="geometry" />
+        <mxCell id="zOImHuErWfGpGWjUnsOy-16" value="&lt;span class=&quot;hljs-punctuation&quot;&gt;{&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-attr&quot;&gt;&quot;status&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;:&lt;/span&gt;&amp;nbsp;500&lt;span class=&quot;hljs-punctuation&quot;&gt;,&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;hljs-attr&quot;&gt;&quot;message&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;Unable to send message&quot;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;}&lt;/span&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="10" y="220" width="260" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-21" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="C-vyLk0tnHw3VtMMgP7b-20" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry" />
+        <mxCell id="zOImHuErWfGpGWjUnsOy-193" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zOImHuErWfGpGWjUnsOy-27" target="zOImHuErWfGpGWjUnsOy-176">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-22" value="shipment_date date NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="C-vyLk0tnHw3VtMMgP7b-20" vertex="1">
-          <mxGeometry x="30" width="220" height="30" as="geometry" />
+        <mxCell id="zOImHuErWfGpGWjUnsOy-194" value="24/05 Update" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-193">
+          <mxGeometry x="-0.4162" y="3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-23" value="Customers" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="120" width="250" height="100" as="geometry" />
+        <mxCell id="zOImHuErWfGpGWjUnsOy-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="-10" width="910" height="540" as="geometry" />
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-24" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="C-vyLk0tnHw3VtMMgP7b-23" vertex="1">
-          <mxGeometry y="30" width="250" height="30" as="geometry" />
+        <mxCell id="zOImHuErWfGpGWjUnsOy-28" value="Verify phone number" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1205" y="-6" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-25" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;" parent="C-vyLk0tnHw3VtMMgP7b-24" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry" />
+        <mxCell id="zOImHuErWfGpGWjUnsOy-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="zOImHuErWfGpGWjUnsOy-30" target="zOImHuErWfGpGWjUnsOy-41" parent="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-26" value="customer_id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="C-vyLk0tnHw3VtMMgP7b-24" vertex="1">
-          <mxGeometry x="30" width="220" height="30" as="geometry" />
+        <mxCell id="zOImHuErWfGpGWjUnsOy-30" value="/api/v1/auth/verify-code&lt;br&gt;&lt;br&gt;{ phoneNumber, code }" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="30" width="250" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-27" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="C-vyLk0tnHw3VtMMgP7b-23" vertex="1">
-          <mxGeometry y="60" width="250" height="30" as="geometry" />
+        <mxCell id="zOImHuErWfGpGWjUnsOy-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="zOImHuErWfGpGWjUnsOy-35" target="zOImHuErWfGpGWjUnsOy-49" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1616" y="245" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-28" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="C-vyLk0tnHw3VtMMgP7b-27" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry" />
+        <mxCell id="zOImHuErWfGpGWjUnsOy-32" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-31">
+          <mxGeometry x="0.2051" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-29" value="customer_name char(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="C-vyLk0tnHw3VtMMgP7b-27" vertex="1">
-          <mxGeometry x="30" width="220" height="30" as="geometry" />
+        <mxCell id="zOImHuErWfGpGWjUnsOy-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="zOImHuErWfGpGWjUnsOy-35" target="zOImHuErWfGpGWjUnsOy-43" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1702.5" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-34" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-33">
+          <mxGeometry x="-0.5714" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-35" value="Search VerificationCode table for a record by a userId and a code" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="130" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="zOImHuErWfGpGWjUnsOy-41" target="zOImHuErWfGpGWjUnsOy-42" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-38" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-37">
+          <mxGeometry x="0.5024" y="2" relative="1" as="geometry">
+            <mxPoint x="10" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="zOImHuErWfGpGWjUnsOy-41" target="zOImHuErWfGpGWjUnsOy-35" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1530" y="160" />
+              <mxPoint x="1530" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-40" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-39">
+          <mxGeometry x="0.1451" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-41" value="Check if the user is in the DB" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="140" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-42" value="&lt;span class=&quot;hljs-punctuation&quot;&gt;{&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-attr&quot;&gt;&quot;status&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;403&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;,&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;hljs-attr&quot;&gt;&quot;message&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;User not found&quot;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;}&lt;/span&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="960" y="135" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-43" value="&lt;span class=&quot;hljs-punctuation&quot;&gt;{&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-attr&quot;&gt;&quot;success&quot;: &quot;true&quot;&lt;/span&gt;&lt;span class=&quot;hljs-number&quot;&gt;&amp;nbsp;, &quot;token&quot;: &quot;sometoken&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;}&lt;/span&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="280" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-49" value="&lt;span class=&quot;hljs-punctuation&quot;&gt;{&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-attr&quot;&gt;&quot;status&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;:&lt;/span&gt;&amp;nbsp;403&lt;span class=&quot;hljs-punctuation&quot;&gt;,&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;hljs-attr&quot;&gt;&quot;message&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;Invalid verification code&quot;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;}&lt;/span&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="960" y="220" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-69" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="620" width="900" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-70" value="Get phone verification code" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="255" y="624" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="zOImHuErWfGpGWjUnsOy-72" target="zOImHuErWfGpGWjUnsOy-83" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-72" value="/api/v1/auth/send-code&lt;br&gt;&lt;br&gt;{ phoneNumber }" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="280" y="660" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="zOImHuErWfGpGWjUnsOy-77" target="zOImHuErWfGpGWjUnsOy-91" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="1035" />
+              <mxPoint x="350" y="1035" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-74" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-73">
+          <mxGeometry x="0.2051" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="zOImHuErWfGpGWjUnsOy-77" target="zOImHuErWfGpGWjUnsOy-113" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-76" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-75">
+          <mxGeometry x="-0.5714" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-77" value="Call External Service API with the user&#39;s phone number" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1005" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-78" value="&lt;span class=&quot;hljs-punctuation&quot;&gt;{&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-attr&quot;&gt;&quot;status&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;:&lt;/span&gt;&amp;nbsp;500&lt;span class=&quot;hljs-punctuation&quot;&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-attr&quot;&gt;&quot;message&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;:&lt;/span&gt;&amp;nbsp;&lt;span class=&quot;hljs-string&quot;&gt;&quot;Invalid verification code&quot;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;}&lt;/span&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1460" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="zOImHuErWfGpGWjUnsOy-83" target="zOImHuErWfGpGWjUnsOy-84" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-80" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-79">
+          <mxGeometry x="0.5024" y="2" relative="1" as="geometry">
+            <mxPoint x="10" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="zOImHuErWfGpGWjUnsOy-83" target="zOImHuErWfGpGWjUnsOy-94" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-82" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-81">
+          <mxGeometry x="0.1451" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-83" value="Check if the user is in the DB" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="265" y="770" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-84" value="&lt;span class=&quot;hljs-punctuation&quot;&gt;{&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-attr&quot;&gt;&quot;status&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;403&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;,&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;hljs-attr&quot;&gt;&quot;message&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;User not found&quot;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;}&lt;/span&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="10" y="765" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-85" value="&lt;span class=&quot;hljs-punctuation&quot;&gt;{&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-attr&quot;&gt;&quot;success&quot;: &quot;true&quot;, &quot;attemptsLeft&quot;: 0-2, &quot;sessionExpiresAt&quot;: timestamp&lt;/span&gt;&lt;span class=&quot;hljs-number&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;}&lt;/span&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1590" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="zOImHuErWfGpGWjUnsOy-90" target="zOImHuErWfGpGWjUnsOy-78" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-87" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-86">
+          <mxGeometry x="-0.3157" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="zOImHuErWfGpGWjUnsOy-90" target="zOImHuErWfGpGWjUnsOy-85" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-89" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-88">
+          <mxGeometry x="-0.4667" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-90" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Create or update a record in the VerificationCode table&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Updated data:&lt;/span&gt;&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt; &lt;/blockquote&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- code value,&lt;/span&gt;&lt;br&gt; - code expiration timestamp,&amp;nbsp;&lt;br&gt;- resends left (default: 2),&lt;div&gt;- resend session expiration timestamp (default: +1h)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;perimeterSpacing=0;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="505" y="1440" width="330" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-91" value="&lt;span class=&quot;hljs-punctuation&quot;&gt;{&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-attr&quot;&gt;&quot;status&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;:&lt;/span&gt;&amp;nbsp;500&lt;span class=&quot;hljs-punctuation&quot;&gt;,&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;hljs-attr&quot;&gt;&quot;message&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;Unable to send message&quot;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;}&lt;/span&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1010" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zOImHuErWfGpGWjUnsOy-94" target="zOImHuErWfGpGWjUnsOy-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-94" value="Search Verification Code table for existing code by userId" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="610" y="760" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zOImHuErWfGpGWjUnsOy-95" target="zOImHuErWfGpGWjUnsOy-103">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-102" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-101">
+          <mxGeometry x="-0.1484" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zOImHuErWfGpGWjUnsOy-95" target="zOImHuErWfGpGWjUnsOy-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-110" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-109">
+          <mxGeometry x="-0.2405" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-95" value="Check the code if there is any attempts left." style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="610" y="860" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-99" value="&lt;div&gt;{&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;status&quot;: 429,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;message&quot;: &quot;Too many requests. Please try again later&quot;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="10" y="850" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zOImHuErWfGpGWjUnsOy-103" target="zOImHuErWfGpGWjUnsOy-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-105" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-104">
+          <mxGeometry x="-0.075" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zOImHuErWfGpGWjUnsOy-103" target="zOImHuErWfGpGWjUnsOy-77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="442.5" y="975" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="443" y="970" />
+              <mxPoint x="666" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-108" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-107">
+          <mxGeometry x="-0.0182" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-103" value="Check the code whether a resend is expired." style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="330" y="860" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zOImHuErWfGpGWjUnsOy-113" target="zOImHuErWfGpGWjUnsOy-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-113" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1150" width="820" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zOImHuErWfGpGWjUnsOy-111" target="zOImHuErWfGpGWjUnsOy-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-111" value="Code resend attempts value is zero and the session is expired&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="65" y="1190" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-114" value="attempts left - 2&lt;br&gt;session expiration timestamp - add 1 h" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="55" y="1280" width="245" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zOImHuErWfGpGWjUnsOy-115" target="zOImHuErWfGpGWjUnsOy-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-115" value="Code resend attempts value is more than zero&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="555" y="1190" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-116" value="attempts left - decrease by 1" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="545" y="1280" width="245" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-122" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="280" width="870" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-120" value="Code record updated data preparation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="297.5" y="1160" width="245" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-170" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zOImHuErWfGpGWjUnsOy-69" target="zOImHuErWfGpGWjUnsOy-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-171" value="24/05 Update" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-170">
+          <mxGeometry x="-0.0182" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-123" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="1410" width="870" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-124" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="1770" width="900" height="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-125" value="Get phone verification code" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="255" y="1774" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="zOImHuErWfGpGWjUnsOy-127" target="zOImHuErWfGpGWjUnsOy-138" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-127" value="/api/v1/auth/send-code&lt;br&gt;&lt;br&gt;{ phoneNumber }" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1810" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="zOImHuErWfGpGWjUnsOy-132" target="zOImHuErWfGpGWjUnsOy-146" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="2186" />
+              <mxPoint x="350" y="2186" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-129" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-128">
+          <mxGeometry x="0.2051" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="zOImHuErWfGpGWjUnsOy-132" target="zOImHuErWfGpGWjUnsOy-161" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-131" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-130">
+          <mxGeometry x="-0.5714" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-132" value="Call External Service API with the user&#39;s phone number" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="610" y="2156" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-133" value="&lt;span class=&quot;hljs-punctuation&quot;&gt;{&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-attr&quot;&gt;&quot;status&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;:&lt;/span&gt;&amp;nbsp;500&lt;span class=&quot;hljs-punctuation&quot;&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-attr&quot;&gt;&quot;message&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;:&lt;/span&gt;&amp;nbsp;&lt;span class=&quot;hljs-string&quot;&gt;&quot;Invalid verification code&quot;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;}&lt;/span&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="10" y="2611" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="zOImHuErWfGpGWjUnsOy-138" target="zOImHuErWfGpGWjUnsOy-139" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-135" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-134">
+          <mxGeometry x="0.5024" y="2" relative="1" as="geometry">
+            <mxPoint x="10" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="zOImHuErWfGpGWjUnsOy-138" target="zOImHuErWfGpGWjUnsOy-148" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-137" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-136">
+          <mxGeometry x="0.1451" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-138" value="Check if the user is in the DB" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="265" y="1920" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-139" value="&lt;span class=&quot;hljs-punctuation&quot;&gt;{&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-attr&quot;&gt;&quot;status&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;403&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;,&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;hljs-attr&quot;&gt;&quot;message&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;User not found&quot;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;}&lt;/span&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1915" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-140" value="&lt;span class=&quot;hljs-punctuation&quot;&gt;{&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-attr&quot;&gt;&quot;success&quot;: &quot;true&quot;, &quot;attemptsLeft&quot;: 0-2, &quot;sessionExpiresAt&quot;: timestamp&lt;/span&gt;&lt;span class=&quot;hljs-number&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;}&lt;/span&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="540" y="2741" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="zOImHuErWfGpGWjUnsOy-145" target="zOImHuErWfGpGWjUnsOy-133" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-142" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-141">
+          <mxGeometry x="-0.3157" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="zOImHuErWfGpGWjUnsOy-145" target="zOImHuErWfGpGWjUnsOy-140" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-144" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-143">
+          <mxGeometry x="-0.4667" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-145" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Create or update a record in the VerificationCode table&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Updated data:&lt;/span&gt;&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt; &lt;/blockquote&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- code value,&lt;/span&gt;&lt;br&gt; - code expiration timestamp,&amp;nbsp;&lt;br&gt;- resends left (default: 2),&lt;div&gt;- resend session expiration timestamp (default: +1h)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;perimeterSpacing=0;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="505" y="2591" width="330" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-146" value="&lt;span class=&quot;hljs-punctuation&quot;&gt;{&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-attr&quot;&gt;&quot;status&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;:&lt;/span&gt;&amp;nbsp;500&lt;span class=&quot;hljs-punctuation&quot;&gt;,&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;hljs-attr&quot;&gt;&quot;message&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;Unable to send message&quot;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;}&lt;/span&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="10" y="2161" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="zOImHuErWfGpGWjUnsOy-148" target="zOImHuErWfGpGWjUnsOy-153" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-173" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-147">
+          <mxGeometry x="-0.1707" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zOImHuErWfGpGWjUnsOy-148" target="zOImHuErWfGpGWjUnsOy-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-175" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-174">
+          <mxGeometry x="-0.1352" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-148" value="Search Verification Code table for existing code by userId" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1910" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="zOImHuErWfGpGWjUnsOy-153" target="zOImHuErWfGpGWjUnsOy-159" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="2041" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-150" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-149">
+          <mxGeometry x="-0.1484" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="zOImHuErWfGpGWjUnsOy-153" target="zOImHuErWfGpGWjUnsOy-132" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-152" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-151">
+          <mxGeometry x="-0.2405" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-153" value="Check the code if there is any attempts left." style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="610" y="2011" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-154" value="&lt;div&gt;{&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;status&quot;: 403,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;message&quot;: &quot;Too many requests. Please try again later&quot;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="10" y="2001" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="zOImHuErWfGpGWjUnsOy-159" target="zOImHuErWfGpGWjUnsOy-154" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-156" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-155">
+          <mxGeometry x="-0.075" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" source="zOImHuErWfGpGWjUnsOy-159" target="zOImHuErWfGpGWjUnsOy-132" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="442.5" y="2126" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="443" y="2121" />
+              <mxPoint x="666" y="2121" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-158" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-157">
+          <mxGeometry x="-0.0182" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-159" value="Check the code whether a resend is expired." style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="330" y="2011" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="zOImHuErWfGpGWjUnsOy-161" target="zOImHuErWfGpGWjUnsOy-145" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-161" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="2301" width="820" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="zOImHuErWfGpGWjUnsOy-163" target="zOImHuErWfGpGWjUnsOy-164" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-163" value="Code resend attempts value is zero and the session is expired&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="65" y="2341" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-164" value="attempts left - 2&lt;br&gt;session expiration timestamp - add 1 h" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="55" y="2431" width="245" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-165" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="zOImHuErWfGpGWjUnsOy-166" target="zOImHuErWfGpGWjUnsOy-167" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-166" value="Code resend attempts value is more than zero&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="555" y="2341" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-167" value="attempts left - decrease by 1" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="545" y="2431" width="245" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-168" value="Code record updated data preparation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="297.5" y="2311" width="245" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-169" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="2561" width="870" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-218" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zOImHuErWfGpGWjUnsOy-176" target="zOImHuErWfGpGWjUnsOy-199">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-219" value="25/05 Update" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-218">
+          <mxGeometry x="-0.0222" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-176" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="620" width="910" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-177" value="Verify phone number" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1205" y="624" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-178" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="zOImHuErWfGpGWjUnsOy-179" target="zOImHuErWfGpGWjUnsOy-189" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-179" value="/api/v1/auth/verify-code&lt;br&gt;&lt;br&gt;{ phoneNumber, code }" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="660" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="zOImHuErWfGpGWjUnsOy-184" target="zOImHuErWfGpGWjUnsOy-192" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1616" y="875" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-181" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-180">
+          <mxGeometry x="0.2051" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="zOImHuErWfGpGWjUnsOy-195" target="zOImHuErWfGpGWjUnsOy-191" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1702.5" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-184" value="Search VerificationCode table for a record by a userId and a code" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="760" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="zOImHuErWfGpGWjUnsOy-189" target="zOImHuErWfGpGWjUnsOy-190" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-186" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-185">
+          <mxGeometry x="0.5024" y="2" relative="1" as="geometry">
+            <mxPoint x="10" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="zOImHuErWfGpGWjUnsOy-189" target="zOImHuErWfGpGWjUnsOy-184" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1530" y="790" />
+              <mxPoint x="1530" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-188" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-187">
+          <mxGeometry x="0.1451" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-189" value="Check if the user is in the DB" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="770" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-190" value="&lt;span class=&quot;hljs-punctuation&quot;&gt;{&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-attr&quot;&gt;&quot;status&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;403&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;,&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;hljs-attr&quot;&gt;&quot;message&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;User not found&quot;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;}&lt;/span&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="960" y="765" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-191" value="&lt;span class=&quot;hljs-punctuation&quot;&gt;{&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-attr&quot;&gt;&quot;success&quot;: &quot;true&quot;&lt;/span&gt;&lt;span class=&quot;hljs-number&quot;&gt;&amp;nbsp;, &quot;token&quot;: &quot;sometoken&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;}&lt;/span&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="1050" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-192" value="&lt;span class=&quot;hljs-punctuation&quot;&gt;{&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-attr&quot;&gt;&quot;status&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;:&lt;/span&gt;&amp;nbsp;403&lt;span class=&quot;hljs-punctuation&quot;&gt;,&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;hljs-attr&quot;&gt;&quot;message&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;Invalid verification code&quot;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;}&lt;/span&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="960" y="850" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-196" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zOImHuErWfGpGWjUnsOy-184" target="zOImHuErWfGpGWjUnsOy-195">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1670" y="820" as="sourcePoint" />
+            <mxPoint x="1670" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-197" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-196">
+          <mxGeometry x="-0.5714" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-195" value="Set user&#39;s VerificationStatus to &#39;VERIFIED&#39;" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="920" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-199" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1250" width="910" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-200" value="Verify phone number" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1205" y="1254" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-201" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="zOImHuErWfGpGWjUnsOy-202" target="zOImHuErWfGpGWjUnsOy-211" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-202" value="/api/v1/auth/verify-code&lt;br&gt;&lt;br&gt;{ phoneNumber, code }" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1290" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-203" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="zOImHuErWfGpGWjUnsOy-206" target="zOImHuErWfGpGWjUnsOy-214" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1616" y="1505" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-204" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-203">
+          <mxGeometry x="0.2051" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-205" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="zOImHuErWfGpGWjUnsOy-217" target="zOImHuErWfGpGWjUnsOy-213" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1702.5" y="1560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-206" value="Search VerificationCode table for a record by a userId and a code" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="1390" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="zOImHuErWfGpGWjUnsOy-211" target="zOImHuErWfGpGWjUnsOy-212" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-208" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-207">
+          <mxGeometry x="0.5024" y="2" relative="1" as="geometry">
+            <mxPoint x="10" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-209" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="zOImHuErWfGpGWjUnsOy-211" target="zOImHuErWfGpGWjUnsOy-206" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1530" y="1420" />
+              <mxPoint x="1530" y="1420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-210" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-209">
+          <mxGeometry x="0.1451" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-211" value="Check if the user is in the DB" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="1400" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-212" value="&lt;span class=&quot;hljs-punctuation&quot;&gt;{&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-attr&quot;&gt;&quot;status&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;403&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;,&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;hljs-attr&quot;&gt;&quot;message&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;User not found&quot;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;}&lt;/span&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1395" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-213" value="&lt;span class=&quot;hljs-punctuation&quot;&gt;{&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-attr&quot;&gt;&quot;success&quot;: &quot;true&quot;&lt;/span&gt;&lt;span class=&quot;hljs-number&quot;&gt;&amp;nbsp;, &quot;token&quot;: &quot;sometoken&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;}&lt;/span&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="1754" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-214" value="&lt;span class=&quot;hljs-punctuation&quot;&gt;{&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-attr&quot;&gt;&quot;status&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;:&lt;/span&gt;&amp;nbsp;403&lt;span class=&quot;hljs-punctuation&quot;&gt;,&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;hljs-attr&quot;&gt;&quot;message&quot;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;hljs-string&quot;&gt;&quot;Invalid verification code&quot;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;hljs-punctuation&quot;&gt;}&lt;/span&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1480" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-215" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="zOImHuErWfGpGWjUnsOy-206" target="zOImHuErWfGpGWjUnsOy-217" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1670" y="1450" as="sourcePoint" />
+            <mxPoint x="1670" y="1680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-216" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zOImHuErWfGpGWjUnsOy-215">
+          <mxGeometry x="-0.5714" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-217" value="Set user&#39;s VerificationStatus to &#39;VERIFIED&#39;" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="1550" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zOImHuErWfGpGWjUnsOy-220" value="Reset send code attempts&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;spacingLeft=10;spacingRight=10;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="1650" width="240" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
